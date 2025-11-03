@@ -2,6 +2,7 @@
   "name": "woo-optimizer",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://SaeedSoltoon.github.io/woo-optimizer",
   "scripts": {
     "dev": "next dev",
   "build": "next build",

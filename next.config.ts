@@ -5,8 +5,9 @@ const nextConfig: NextConfig = {
   reactCompiler: true,
   // Use static export output so `next export` produces a static `out/` folder
   output: 'export',
-  // No basePath/assetPrefix so assets are referenced from root (/_next/...)
-  // This is required when the Pages site uses a custom domain (saeedsoltani.ir)
+  // GitHub project page settings for https://SaeedSoltoon.github.io/woo-optimizer
+  basePath: '/woo-optimizer',
+  assetPrefix: '/woo-optimizer',
 };
 
 export default nextConfig;
